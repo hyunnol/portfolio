@@ -1,0 +1,152 @@
+/* 상단바 */
+.navbar {
+	position: fixed;
+	background-color: black;
+	width: 100%;
+	height: 70px;
+	z-index: 999;
+}
+
+.navbar-logo {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 1.8em;
+	margin-top: 9px;
+	color: white;
+}
+
+.navbar-sort {
+	position: relative;
+	left: 1000px;
+	margin-top: -32px;
+}
+
+.item {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	display: inline;
+	padding-left: 30px;
+	font-size: 1.5em;
+}
+
+.link_out:hover {
+	text-decoration: none;
+	color: white;
+}
+ .link_out{
+ color:white;
+ }
+.link:hover, .navbar-logo:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.link{
+	color: white;
+}
+
+.container {
+	margin-top: 15px;
+}
+
+/* 사이드바 */
+.side-bar {
+	position: fixed;
+	left: 50px;
+}
+
+.widget1 {
+	margin-top: 120px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	width: 400px;
+	height: 150px;
+}
+
+.card1-header {
+	border-bottom: 1px solid lightgray;
+	margin: 0px;
+	height: 50px;
+	padding-left: 15px;
+	padding-top: 17px;
+	background-color: #f7f7f7;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size: 1.2em;
+}
+
+.card1-body {
+	width: 400px;
+	height: 60px;
+}
+
+.input {
+	margin: 0px;
+	padding-left: 40px;
+	padding-top: 30px;
+}
+
+.form-input {
+	border-radius: 6px;
+	border: 1px solid lightgray;
+	width: 250px;
+	height: 35px;
+}
+
+.btn {
+	border-radius: 6px;
+	border: 1px solid lightgray;
+	height: 35px;
+	color: gray;
+}
+
+.form-input, .btn {
+	vertical-align: middle;
+}
+
+.widget2 {
+	margin-top: 25px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	width: 400px;
+	height: 200px;
+}
+
+.card2-header {
+	border-bottom: 1px solid lightgray;
+	margin: 0px;
+	height: 50px;
+	padding-left: 15px;
+	padding-top: 17px;
+	background-color: #f7f7f7;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size: 1.2em;
+}
+
+.card2-body {
+	height: 300px;
+	width: 400px;
+}
+
+ul {
+	float: left;
+}
+
+li {
+	list-style-type: none;
+	padding-bottom: 7px;
+}
+
+.list-theme1, .list-theme2 {
+	padding: 35px;
+}
+
+a {
+	color: gray;
+}
+
+#root {
+	position: absolute;
+	left: 550px;
+	margin-top: 120px;
+	width: 1000px;
+}
